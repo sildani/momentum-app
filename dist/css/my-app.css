@@ -1,0 +1,82 @@
+/*logo class*/
+
+.navbar{
+	background-color: #338dbf;
+	border: none;
+	color: #ffffff;
+}
+
+.navbar a{
+	color: #ffffff;
+}
+
+.navbar a.back{
+	color: #ffffff;
+}
+
+.loginCanvas{
+	background: #129cca; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzEyOWNjYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDc3OWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #129cca 0%, #00779e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#129cca), color-stop(100%,#00779e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #129cca 0%,#00779e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #129cca 0%,#00779e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #129cca 0%,#00779e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #129cca 0%,#00779e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#129cca', endColorstr='#00779e',GradientType=0 ); /* IE6-8 */
+	
+	
+}
+
+.logo{
+	text-align: center;
+}
+
+
+.logo img{
+	width: 48%;
+}
+
+.slider-slide p{
+	font-size: 12px;
+	float: none;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.slider-slide h1{
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+.title{
+	text-align: center;
+	line-height: 43px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+
+.whiteButton{
+	background-color: #ffffff;
+	color: #338dbf;
+	border: none;
+}
+
+.blueButton{
+	background-color: #338dbf;
+	color: #ffffff;
+	border: 1px solid #28729b;
+}
+
+
+/*overwrite*/
+
+/*this class makes sure that the standard bacground is white all the time.*/
+.page{
+	background-color: #fff;
+}
+
